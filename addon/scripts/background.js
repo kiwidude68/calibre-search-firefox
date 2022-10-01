@@ -216,7 +216,7 @@ function createSearchMenuLink() {
         id: MENU_ID,
         title: browser.i18n.getMessage('menu_searchLabelInitial'),
         contexts: getAllowedContexts()
-    }, onSuccess());
+    }, () => browser.runtime.lastError);
 
     browser.menus.onClicked.addListener((clickData) => doSearchFromContextMenu());
 }
