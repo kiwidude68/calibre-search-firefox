@@ -56,7 +56,7 @@ function appConnectionTest() {
 		if (responseObject.status === 'Success') {
 			eNativeAppSuccess.style.display = "block";
 			eNativeAppError.style.display = "none";
-			document.getElementById('nativeAppVersion').innerHTML = browser.i18n.getMessage("info_appVersion") + ': ' + responseObject.version;
+			document.getElementById('nativeAppVersion').innerText = browser.i18n.getMessage("info_appVersion") + ': ' + responseObject.version;
 			console.log('calibre-search: Successfully tested communication between native application and webextension.');
 		}
 	}, function (error) {

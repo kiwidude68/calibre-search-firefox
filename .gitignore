@@ -11,3 +11,5 @@
 
 ### Built plugin files
 *.xpi
+*.zip
+addon/web-ext-artifacts/

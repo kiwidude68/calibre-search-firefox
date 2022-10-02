@@ -13,6 +13,19 @@ The search option is available via:
 
 For more information, please refer to the [FAQ][wiki-url]
 
+## web-ext command lines
+
+Noting here for my development process:
+
+https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/
+```
+web-ext lint
+
+web-ext build --overwrite-dest
+
+web-ext sign --api-key="%CALIBRE_SEARCH_FIREFOX_API_ISSUER%" --api-secret="%CALIBRE_SEARCH_FIREFOX_API_SECRET%"
+```
+
 ## Donations
 
 If you enjoy my calibre plugins or extensions, please feel free to show your appreciation!
