@@ -44,6 +44,7 @@
   },
 
   "browser_action": {
+    "browser_style": true,
     "default_icon": "icons/calibre-search.svg",
     "default_title": "Calibre Search"
   },
