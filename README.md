@@ -23,7 +23,7 @@ web-ext lint
 
 web-ext build --overwrite-dest
 
-web-ext sign --api-key="%CALIBRE_SEARCH_FIREFOX_API_ISSUER%" --api-secret="%CALIBRE_SEARCH_FIREFOX_API_SECRET%"
+web-ext sign --channel=listed --api-key="%CALIBRE_SEARCH_FIREFOX_API_ISSUER%" --api-secret="%CALIBRE_SEARCH_FIREFOX_API_SECRET%"
 ```
 
 ## Donations
